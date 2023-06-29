@@ -1,0 +1,10 @@
+.allMovies {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding: 1rem 10%;
+}
+.movieDetails {
+    max-width: 900px;
+    margin: 0 auto;
+}
